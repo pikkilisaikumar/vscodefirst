@@ -1,0 +1,21 @@
+.normal__container {
+  height: 100vh;
+  background-color: green;
+  display: grid;
+  place-items: center center;
+}
+.box__container {
+  background-color: red;
+  box-shadow: 10px;
+  height: 300px;
+  width: 600px;
+}
+.span {
+}
+.heading {
+  margin: 0 auto;
+  color: white;
+  /* background-color: white; */
+}
+.button {
+}
