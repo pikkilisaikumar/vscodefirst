@@ -1,17 +1,19 @@
-import React from "react";
+import { Component } from "react";
 
-import "./App.css";
+import Header from "./components/Header";
+import LandingSection from "./components/LandingSection";
+import FeaturesSection from "./components/FeaturesSection";
 
-const App = () => {
-  return (
-    <div className="normal__container">
-      <div className="box__container">
-        <span className="span">span x</span>
-        <h1 className="heading">Heading One</h1>
-        <button className="button">Submit</button>
-      </div>
-    </div>
-  );
-};
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Header />
+        <LandingSection />
+        <FeaturesSection />
+      </>
+    );
+  }
+}
 
 export default App;
